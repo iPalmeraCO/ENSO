@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>E N S O</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="fonts/style.css">
+</head>
+
+<body>
+	
+    	<header>
+    	<div class="contenedor">
+        	
+          <nav class="navbar navbar-inverse navbar-static-top menu">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img class="logo" src="images/enso_logo.png"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse menu-botonera">
+              <ul class="nav navbar-nav">
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Espacios<span class="caret"></span></a>
+                  <ul class="dropdown-menu active">
+                    <li><a href="Comun.html">Común</a></li>
+                    <li><a href="Privado.html">Privado</a></li>
+                    <li><a href="Proximo.html">Próximo</a></li>
+                    <li><a href="Utilitario.html">Utilitario</a></li>
+                  </ul>
+                </li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="Identidad.html">Identidad</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </div>
+	</header>
+    
+    
+</div><div class="container">
+<div class="row">
+  <div class="col-xs-12">
+            <div class="well well-sm" style="background: white;">
+                <form class="form-horizontal" method="post" action="EnsoController/email_contacto" id="formulario_contacto">
+                    <fieldset>
+                        <legend class="text-center header" >Contáctanos</legend>
+
+                        <div class="col-xs-4 col-xs-offset-4">
+                            <div class="form-group">                                
+                                <div >
+                                    <input id="nombre" name="nombre" type="text" placeholder="Nombre. (requerido)" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div>
+                                    <input id="apellido" name="empresa" type="text" placeholder="empresa" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div>
+                                    <input id="email" name="email" type="email" placeholder="Direccion de correo. (requerido)" class="form-control" required>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <div>
+                                    <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Mensaje. (requerido)" rows="7" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg black-background white">Enviar</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+<style>
+    .header {
+        /*color: #36A0FF;*/
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        /*color: #36A0FF;*/
+    }
+</style>
+  </div>
+
+</div>
+</div>
+     
+    
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+/* etiquetas */
+
+header{
+	height:100px;
+	background:#FFF;
+	margin-top: 20px;
+	}
+	
+hr {
+    border: 0;
+    height: 1px;
+    position: relative;
+    top: -22px;
+    background: #555;
+    /*background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
+}	
+	
+section{
+	margin: 20px 0 20px 0;
+	}	
+
+h2,h3{
+	margin-left: 15px;
+	}			
+
+	
+/* clases */		
+	
+.banner{
+	position:relative;
+	}
+.banner img{
+	width:100%;
+	height: 100%;
+	}
+	
+.banner .container{
+	position: absolute;
+	margin:auto;
+	}		
+	
+.banner .container .texto-home{
+	font-size: 24px;
+	color: #E7E9E7;
+	margin: 20px 0 0 100px;
+	}
+	
+.btn{
+	background:#FFF;
+	color:#000;
+	border: 0;}	
+	
+.btn .btn-primary:hover{
+	background:EEEEEE;}		
+	
+.galeria-imagenes{
+	margin: 20px 0 30px 0;
+	}
+	
+.logo{
+	max-height: 70px;
+	margin: 2px 0 0 0;
+	}
+	
+.ima-galeria{
+	margin:10px 0 0 0;}	
+	
+.ima-home{
+	width: 100%;
+	height:auto;
+	}			
+	
+.imagen_proyecto{
+  min-height: 180px;
+  max-height: 240px;
+  margin: 10px 0 10px 0;
+  position: relative;
+}
+	
+.imagen_equipo{
+  max-height: 240px;
+  max-width: 240px;
+  position: relative;
+}
+
+.overlay-equipo {
+  background:rgba(0,0,0,.25);
+  text-align: center;
+  position: relative;
+  height: 240px;
+  top: -240px;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease; 
+}
+
+.imagen_equipo:hover > .overlay-equipo {
+  opacity:1;
+}
+
+.overlay-equipo span {
+  
+  font-family:Helvetica;
+  font-weight:900;
+  color:rgba(255,255,255,.85);
+  font-size: 17px;
+  /*line-height: 120px;*/
+
+}
+
+.overlay-equipo span a{
+  color: white;
+  text-decoration: none;
+  font-family: AkzidenzMedium;
+  font-size: 16px;
+}
+
+.overlay-equipo span a:visited{
+  color: white;
+}
+	
+	
+.primero{
+	padding: 30px 0 40px 0;
+	border-bottom:1px solid #000;
+	border-top:1px solid #000;
+	}							
+			
+	
+.menu{
+	background:#FFF;
+	border: 0;
+	height: 100px;}	
+	
+.menu-botonera{
+	margin-top:30px;
+	float: right;
+	}
+			
+	
+.navbar-inverse .navbar-nav>li>a {
+    color: #000;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+	background:#000;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+.navbar-inverse{
+    background-color: #FFF;
+}
+
+
+.navbar-inverse .navbar-toggle{
+	color:#000;
+    background-color: #FFF;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	color:#fff;
+    background-color: #fff;
+}
+	
+.texto-proyectos{
+	margin-bottom: 20px;}	
