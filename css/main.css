@@ -16,6 +16,29 @@ hr {
     background: #555;
     /*background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
 }	
+
+input {
+	min-width: 200px;}
+	
+textarea {
+	min-width: 200px;}
+	
+@media (max-width: 460px) {
+input {
+	min-width: 200px;
+	margin-left:-65px
+	}
+	
+textarea {
+	min-width: 200px;
+	margin-left:-65px
+	}
+	
+button{
+	margin-left:-30px
+	}
+	
+}		
 	
 section{
 	margin: 20px 0 20px 0;
