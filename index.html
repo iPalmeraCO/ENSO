@@ -1,63 +1,87 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>E N S O</title>
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="fonts/style.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
 
-<body>
-	<header>
-    	<div class="contenedor">
-        	
-          <nav class="navbar navbar-inverse navbar-static-top menu">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html"><img class="logo" src="images/enso_logo.png"></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse menu-botonera">
-              <ul class="nav navbar-nav">
-              <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Espacios<span class="caret"></span></a>
-                  <ul class="dropdown-menu active">
-                    <li><a href="Comun.html">Común</a></li>
-                    <li><a href="Privado.html">Privado</a></li>
-                    <li><a href="Proximo.html">Próximo</a></li>
-                    <li><a href="Utilitario.html">Utilitario</a></li>
-                  </ul>
-                </li>
-                <li><a href="Nosotros.html">Nosotros</a></li>
-                <li><a href="Identidad.html">Identidad</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        </div>
-	</header>
-    
-    <section class="banner">
-    	
-        <div class="container">
-        	<p class="texto-home">arquitectura<br>espacio<br>tiempo</p>
-        </div>
-        
-        <img src="images/O81GBA0.jpg" class="ima-home">
-    </section>
 
-    
-	<script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
-</body>
+    <title>E N S O</title>
+
+    <style media="screen">
+      body{
+        background-color: white;
+      }
+
+      #intro_text{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 117px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -53px;
+      }
+
+      #intro_text > p{
+        padding-top: 18px;
+        font-family: 'rotis';
+        color: black;
+        float: left;
+        opacity: 0;
+        margin-right: 3px;
+        font-size: 50px;
+
+      }
+
+      #entrar{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 106px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -53px;
+      }
+
+      #entrar a{
+        text-decoration: none;
+        color: black;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="intro_text" >
+      <p id="first_char" class="chars_header" style="font-size:36px">E</p>
+      <p id="second_char" class="chars_header" style="font-size:36px">N</p>
+      <p id="third_char" class="chars_header" style="font-size:36px">S</p>
+      <p id="fourth_char" class="chars_header" style="font-size:36px">O</p>
+    </div>
+
+    <div id="entrar" hidden="hidden">
+      <a href="home.html">
+        <h2 style="margin-left: 35px; margin-top: 45px; font-size: 16px; text-decoration: underline; font-family: 'Akzidenz-Grotesk-light';">Enter</h2>
+      </a>
+    </div>
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="http://www.proyectoenso.com/assets/js/vendor/greensock/TweenMax.min.js"></script>
+
+  <!--CDN links for TweenLite, CSSPlugin, and EasePack-->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/CSSPlugin.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/easing/EasePack.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenLite.min.js"></script>
+
+  <script type="text/javascript" src="http://www.proyectoenso.com/assets/js/main.js"></script>
+  
+
 </html>
-
