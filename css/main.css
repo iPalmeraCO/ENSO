@@ -2,6 +2,21 @@
 /* CSS Document */
 /* etiquetas */
 
+@font-face {
+    font-family: AkzidenzMedium;
+    src: url(AkzidenzGrotesk-Medium.otf);
+}
+
+@font-face {
+    font-family: Akzidenz-Grotesk-BQ;
+    src: url(AkzidenzGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: Akzidenz-Grotesk-light;
+    src: url(AkzidenzGrotesk-Light.otf);
+}
+
 header{
 	height:100px;
 	background:#FFF;
@@ -16,6 +31,10 @@ hr {
     background: #555;
     /*background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
 }	
+
+p{
+	font-family: Akzidenz-Grotesk-BQ;
+	}
 
 input {
 	min-width: 200px;}
@@ -46,6 +65,7 @@ section{
 
 h2,h3{
 	margin-left: 15px;
+	font-family: AkzidenzMedium;
 	}			
 
 	
@@ -165,6 +185,7 @@ h2,h3{
 	
 .navbar-inverse .navbar-nav>li>a {
     color: #000;
+	font-family: AkzidenzMedium;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {

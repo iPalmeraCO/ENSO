@@ -9,6 +9,24 @@
   font-style: normal;
 }
 
+@font-face {
+    font-family: AkzidenzMedium;
+    src: url(AkzidenzGrotesk-Medium.otf);
+}
+
+@font-face {
+    font-family: Akzidenz-Grotesk-BQ;
+    src: url(AkzidenzGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: Akzidenz-Grotesk-light;
+    src: url(AkzidenzGrotesk-Light.otf);
+}
+
+
+
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
